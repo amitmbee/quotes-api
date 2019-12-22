@@ -1,0 +1,33 @@
+GET http://localhost:3000/quotes
+
+###
+
+GET http://localhost:3000/quotes/5dff6cdf9f8e4460a17c6fba
+
+###
+
+POST http://localhost:3000/quotes
+Content-Type: application/json
+
+{
+    "quote":"A man shouldn’t live in a place where people are not afraid of the law, are shameless, and there is no clever man, where people lack in kindness, and where exists no creativity or art.",
+    "author": "Chanakya"
+}
+
+
+###
+
+PATCH http://localhost:3000/quotes/5dff7504a3baa563cf4b9b11
+Content-Type: application/json
+
+{
+    "quote": "random quote",
+    "author": "random author"
+}
+
+
+###
+
+DELETE http://localhost:3000/quotes/5dff74275fcbb66317032440
+
+

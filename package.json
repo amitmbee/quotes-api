@@ -1,0 +1,20 @@
+{
+    "name": "random-quote",
+    "version": "1.0.0",
+    "description": "Random quote generator",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Amit Bhavikatti",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.8.2"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0",
+        "nodemon": "^2.0.2"
+    }
+}
